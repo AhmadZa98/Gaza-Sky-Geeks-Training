@@ -1,0 +1,9 @@
+{% extends 'posts/master.html'%}
+ 
+{% block contents%}
+    <h1>{{post.title}}</h1>
+    <br>
+    <h2>{{post.category.title}}</h2>
+    <p>{{post.content}}</p>
+
+{% endblock%}
